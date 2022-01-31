@@ -1,0 +1,51 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color:rgb(218, 214, 218);
+}
+
+.header{
+    height: 8vh;
+    background-color: rgb(255, 217, 0);
+}
+#sticky{
+    margin-left: 10px;
+}
+.mykeep{
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#addNoteBtn{
+    height: 5vh;
+    width: 7vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 5%;
+}
+#addNoteBtn:hover{
+    background-color: rgb(159, 250, 174);
+}
+.noteBox{
+    height: 25vh;
+    background-color: whitesmoke;
+    width: 25vw;
+    
+}
+.noteBox button:hover{
+    background-color: rgb(108, 247, 108);
+}
+.textArea{
+    height: 9vw;
+    width: 24vw;
+    margin: 5px;
+}
+.hidden{
+    display:none;
+}
+.main{
+    background-color:rgb(253, 147, 147);
+    height: 9vw;
+    width: 24vw;
+    margin: 5px;
+}
